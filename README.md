@@ -72,7 +72,8 @@ prescription-ocr
 4. Find alternative medicines – Medicines with similar composition (generic equivalents) are retrieved.
 5. Generate an order automatically – An order is created based on the identified or alternative medicines.
 
-## The system is working optimally with high accuracy from extracting the text to placing the order working optimally for edge cases as well.
+## The system is working optimally with high accuracy from extracting the text to placing the order working optimally for edge cases as well. 
+## Prescription data is available in data folder where edge cases can be checked. 
 
 ## Possible improvements:
 User Confirmation: Allow users to confirm or modify the order before finalizing.
