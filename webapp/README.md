@@ -7,7 +7,7 @@ npm start
 # Backend :
 # Prescription OCR Assistant
 
-This project is a web application that acts as a pharmacist assistant, helping to transcribe handwritten doctors' prescriptions into text. The application allows users to upload images of prescriptions and displays the extracted details and list of medicines.
+This project is a web application that acts as a pharmacist assistant, helping to transcribe handwritten doctors' prescriptions into text. The application allows users to upload images of prescriptions and displays the extracted details and list of medicines and creates the order automatically.
 
 ## Features
 
