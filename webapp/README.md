@@ -61,10 +61,4 @@ prescription-ocr
 
 3. Upload a prescription image using the provided interface.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
+4. You get information of the medicines that are found in the database, along with the dosage and it automatically places order for the medicines that are available.
