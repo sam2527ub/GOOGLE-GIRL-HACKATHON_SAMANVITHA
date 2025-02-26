@@ -1,0 +1,173 @@
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Upload Section */
+.uploadSection {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.fileInputWrapper {
+  border: 2px dashed #3498db;
+  padding: 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.fileInputWrapper p {
+  margin: 0;
+  color: #3498db;
+}
+
+.previewContainer {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.previewImage {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.clearButton {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.uploadButton {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.uploadButton:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Results Section */
+.resultsSection {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loadingSpinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.resultsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.addButton {
+  background: #2ecc71;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.prescriptionCard {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.prescriptionDetails {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.medicineName {
+  font-weight: bold;
+}
+
+.similarButton {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.similarButton.loading {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.removeButton {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.similarMedicines {
+  margin-top: 1rem;
+}
+
+.similarMedicines ul {
+  list-style: none;
+  padding: 0;
+}
+
+.similarMedicines li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
