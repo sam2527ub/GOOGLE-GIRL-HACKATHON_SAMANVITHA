@@ -1,0 +1,13 @@
+Flask
+pillow
+pytesseract
+opencv-python
+flask-cors
+google-generativeai
+python-dotenv
+pathlib
+json
+csv
+regex
+fuzzywuzzy
+python-Levenshtein
